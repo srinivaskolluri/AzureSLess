@@ -1,0 +1,15 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{% import "_modules/link/link.nunjucks" as link %}
+
+{% block content %}
+<div class="main-container">
+  <div class="yeogurt-info">
+    <h1>Error Occured!</h1>
+    <p>
+     Error Occured!
+    </p>
+  </div>
+</div>
+<code class="version">v2.0.1</code>
+{% endblock %}
